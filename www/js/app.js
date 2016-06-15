@@ -26,10 +26,10 @@ angular.module('fitkeeper', ['ionic'])
 .config(function ($stateProvider,$urlRouterProvider) {
   $stateProvider
     .state('homepage', {
-      url: '/home',
+      url: '/homepage',
       templateUrl: 'template/homepage.html'
     })
 
-  $urlRouterProvider.otherwise('/home')
+  $urlRouterProvider.otherwise('/homepage')
 
 })
