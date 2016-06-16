@@ -5,5 +5,8 @@ body{
 
 #mainpage{
   margin: 380px 0px ;
-  background-image: url("img/bg.jpg");
+}
+
+#bg{
+  background-image: image("www/img/bg.jpg");
 }
