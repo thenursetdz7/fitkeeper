@@ -33,6 +33,14 @@ angular.module('fitkeeper', ['ionic'])
       url: '/login',
       templateUrl: 'templates/login.html'
     })
+    .state('profile', {
+      url: '/profile',
+      templateUrl: 'templates/profile.html'
+    })
+    .state('activity', {
+      url: '/activity',
+      templateUrl: 'templates/activity.html'
+    })
 
   $urlRouterProvider.otherwise('/login')
 
